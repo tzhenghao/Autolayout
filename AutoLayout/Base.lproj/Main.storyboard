@@ -44,6 +44,9 @@
                                 <state key="normal" title="Change Security">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="toggleSecurity:" destination="BYZ-38-t0r" eventType="touchUpInside" id="43s-17-BQj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bP3-Uv-lxV">
                                 <rect key="frame" x="363" y="104" width="38" height="30"/>
@@ -87,6 +90,13 @@
                             <constraint firstItem="t4G-3E-H2o" firstAttribute="width" secondItem="vPC-Fw-jve" secondAttribute="width" id="xWK-7K-aJ9"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="loginField" destination="EAb-VQ-0Ec" id="22W-5Q-K35"/>
+                        <outlet property="passwordField" destination="U6b-bw-Bqh" id="Vlq-JI-98G"/>
+                        <outlet property="passwordLabel" destination="CHo-o3-qdd" id="hgO-aZ-YPK"/>
+                        <outlet property="username" destination="EAb-VQ-0Ec" id="bEG-oC-sHk"/>
+                        <outlet property="usernameLabel" destination="ls4-Ze-ZRe" id="Ono-FR-wWO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
