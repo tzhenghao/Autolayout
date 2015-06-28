@@ -77,7 +77,6 @@
 		5A18D2DD1B40B2FB005F4C58 /* AutoLayout */ = {
 			isa = PBXGroup;
 			children = (
-				5A18D2E01B40B2FB005F4C58 /* AppDelegate.swift */,
 				5A18D2E21B40B2FB005F4C58 /* ViewController.swift */,
 				5A18D2E41B40B2FB005F4C58 /* Main.storyboard */,
 				5A18D2E71B40B2FB005F4C58 /* Images.xcassets */,
@@ -90,6 +89,7 @@
 		5A18D2DE1B40B2FB005F4C58 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5A18D2E01B40B2FB005F4C58 /* AppDelegate.swift */,
 				5A18D2DF1B40B2FB005F4C58 /* Info.plist */,
 			);
 			name = "Supporting Files";
